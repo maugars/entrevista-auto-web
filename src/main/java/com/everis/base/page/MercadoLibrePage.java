@@ -51,5 +51,5 @@ public class MercadoLibrePage extends PageObject {
             .locatedBy("//button[@class='nav-search-btn']");
 
     public static final Target itemProducto = Target.the("item producto")
-            .locatedBy("//a[contains(@class, 'ui-search-item__group__element') and contains(@class, 'ui-search-link__title-card')]");
+            .locatedBy("//div[@class='poly-card__content' and .//span[text()='MÁS VENDIDO']]");
 }

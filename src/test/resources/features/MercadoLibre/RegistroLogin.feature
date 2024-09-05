@@ -4,7 +4,7 @@ Feature: Registro de cliente en Mercado Libre
   @buscarProducto
   Scenario: Busqueda y selección de producto
     Given que Jesus esta en la pagina principal de la tienda de Mercadolibre
-    When ingresa el producto "Laptop Lenovo Idapad Slim 3 15 Amd Ryzen 5 8gb 512 Ssd Fhd Color Azul" en el campo de búsqueda
+    When ingresa el producto "PS5 Slim" en el campo de búsqueda
     And selecciona el boton buscar
     And selecciona el primer ítem de la lista de resultados
     Then valida el producto

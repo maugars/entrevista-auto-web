@@ -111,6 +111,6 @@ public class MercadoLibreSD {
     @Then("valida el producto")
     public void valida_El_Producto() {
         theActorInTheSpotlight().should(seeThat(
-                TitleLogin.getText(), equalTo("Laptop Lenovo Ideapad Slim 3 15 Amd Ryzen 3 8gb 512gb Ssd | Cuotas sin interés")));
+                TitleLogin.getText(), equalTo("Consola Ps5 Slim Digital + Ratchet & Clank Y Returnal Color Blanco | Cuotas sin interés")));
     }
 }
